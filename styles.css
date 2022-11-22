@@ -237,8 +237,8 @@
     /* MENU */
     #menu-top{
         flex-direction: column;
-        margin: 0px;
         width: 100%;
+        margin: 0px;
     }
     #menu{
         flex-direction: column;
@@ -246,6 +246,7 @@
         margin: 0px;
         border: none;
         height: 100px;
+        
     }
     #menu-top div a{
         display: flex;
@@ -277,5 +278,13 @@
         font-size: 17px;
     }
 
+    /* FOOTER */
 
+    footer .linha1{
+        flex-direction: column;
+    }
+    footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
+    }
     }
